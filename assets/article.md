@@ -7,7 +7,7 @@ The primary topic of this article is the evaluation of Elasticsearch query relev
 - Synthetic generation of document and judgment sets via the [Google Gemini API](https://ai.google.dev/gemini-api/docs/gemini-3)
 - GPU-accelerated embeddings via [ELSER](https://www.elastic.co/docs/explore-analyze/machine-learning/nlp/ml-nlp-elser) on [Elastic Inference Service](https://www.elastic.co/docs/explore-analyze/elastic-inference/eis)(EIS) 
 - Creation of an [Elastic inference endpoint](https://www.elastic.co/docs/explore-analyze/elastic-inference/inference-api) for a [Jina.ai](https://jina.ai/) hosted reranker model.
-- Use of the following Elastic retrievers to build [query evaluation templates](https://www.elastic.co/docs/reference/elasticsearch/rest-apis/search-rank-eval#template-based-ranking-evaluation):
+- Use of the following Elastic retrievers:
   - [Standard](https://www.elastic.co/docs/reference/elasticsearch/rest-apis/retrievers/standard-retriever)
     - Lexical
     - Semantic via the [semantic_text](https://www.elastic.co/docs/solutions/search/semantic-search/semantic-search-semantic-text) field type
